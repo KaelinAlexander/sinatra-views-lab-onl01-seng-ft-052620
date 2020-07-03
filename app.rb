@@ -4,7 +4,7 @@ class App < Sinatra::Base
 		erb :index
 	end
 
-	get '/goodbye/' do
+	get '/goodbye' do
 		erb :goodbye
 	end
 
@@ -12,7 +12,7 @@ class App < Sinatra::Base
 		erb :hello
 	end
 
-	get '/date/' do
+	get '/date' do
 		erb :date
 	end
 
